@@ -187,11 +187,17 @@
   margin: 1rem;
   background-color: #fff;
   position: relative;
+
 }
+#four-section .card .img-box{
+  overflow: hidden!important;
+
+  }
 #four-section .card .img-box img {
   width: 100%;
   transition: 0.4s ease-out;
   object-fit: cover;
+  height: 250px;
 }
 
 #four-section .card img:hover{
@@ -214,10 +220,7 @@ transition: 0.3s ease-in-out;
 visibility: hidden;
 z-index: 500;
 }
-#four-section .card .img-box{
-overflow: hidden;
-width: 100%;
-}
+
 #four-section .card .buy {
   background-color: #00ac4e;
 }
@@ -341,11 +344,20 @@ overflow: hidden;
 #eight-section .eight-section-img .box-img{
   width: 100%;
   margin: 20px 10px;
+  position: relative;
   overflow: hidden;
+
 }
 
 
+/* #eight-section .eight-section-img .box-img i{
+  color: #00ac4e;
 
+  font-size: 20px;
+margin-left: 6rem;
+position: absolute;
+ 
+} */
 
 
  #eight-section .eight-section-img .box-img img {
@@ -830,13 +842,13 @@ text-align: left;
   margin-left: 3rem;
 }
 #view-page-content .view-page-recipe .view-page-recipe-para {
-  line-height: 2opx;
+  line-height: 30px;
 }
 
 #view-page-content .view-page-recipe .view-page-recipe-para p{
   margin-left: 3rem;
   letter-spacing: 0.28px;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 15px;
     color: #858585;
 
